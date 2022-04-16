@@ -1,0 +1,14 @@
+body {
+    /* background-color: #285457; */
+    background-image: url("rain5.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #422521;
+    margin-left: 20px;
+
+}

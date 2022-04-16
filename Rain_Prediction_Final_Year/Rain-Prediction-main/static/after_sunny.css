@@ -1,0 +1,12 @@
+body {
+    /* background-color: #285457; */
+    background-image: url("sun2.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF4D00;
+}

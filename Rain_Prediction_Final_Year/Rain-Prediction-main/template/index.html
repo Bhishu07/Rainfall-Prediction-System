@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Predictor</title>
+    <link rel="stylesheet" href={{url_for('static',filename='style1.css')}}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    
+
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+        
+        <h2><a href="/home" class="logo">AccuRain</a></h2>
+        <div class="navigation">
+          <a href="/home">Home</a>
+          <a href="#about">About AccuRain</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#news">News</a>
+
+
+
+          <a href="/predict_fe">predictor</a>
+          
+          <!-- <a href="/predict">Predictor</a> -->
+          <!-- <a href="predictor.html">Predictor</a> -->
+
+        </div>
+        <label for="check">
+        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2>Welcome<br><span>TO ACCURAIN</span></h2>
+          <p> "~It is best to read the weather forecast before praying for rain ~ Mark Twain . AccuRain helps you in early forecasting of rain by making nearly accurate prediction through machine learning"  </p>
+          
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+     
+    </section>
+
+    <section id="about">
+      <h2>About AccuRain</h2>
+      <p class="about-content" style="text-align: center;">Rainfall prediction is one of the challenging and uncertain tasks which has a significant impact on human society. Agriculture, which acts as major economic sector for various countries and is being the livelihood of many people, is heavily dependent upon the rainfall received by the region. Apart from the agriculture sector, there are many other professions and lives of people that are dependent on rainfall and can be severely affected by the damage caused by it. Also, due to untimely and irregular rainfall pattern observed around the world, it has become difficult to predict rainfall even by high end forecasting systems. Hence, accurate and precise rainfall prediction should be made that can help in understanding & analyzing rainfall patterns & can provide prior information on the rainfall expected in the regions.AccuRain is an attempt towards building an effective solution to predict rainfall accurately for the next days based on the weather data provided to our predictor .
+      </p>
+    </section>
+
+    <section id="dashboard">
+      <h2>Dashboard</h2>
+      <p style="text-align: center;">This dashboard is created using PowerBI which is a product of Microsoft. It is an interactive dashboard designed for the purpose of easy understanding and Analysis of the rainfall in Australia.
+         So to see the interactive visualizations we are attaching our <a href="../static/Australia's Rainfall Analysis.pbix" style="color: black; font-weight: bold;">PowerBI</a>
+        dashboard file. This requires PowerBI software to access the file. The usage of dashboards like
+        these is to gain some valuable insights from the data visualized.</p>
+      <img class="dashboard-image" src="../static/dash1.png" alt="1">
+      <img class="dashboard-image" src="../static/dash2.png" alt="2">
+
+     </section>
+
+     <!-- <section id="info" style="padding: 7%;">
+      
+      <div>
+        <h2>Developer</h2>
+        <p class="about-content"></p>
+      </div>
+    </section> -->
+
+    <section id="news" style="background-color:#eee;" >
+      <!-- <iframe style="width:100%;background-color:#eee;padding-top: 10px;" height="60"src="https://rss.app/embed/v1/ticker/4H7V34clFbyls1pe" frameborder="0"></iframe> -->
+      <iframe style="width:100%;background-color:#eee;padding-top: 10px;" height="60" src="https://rss.app/embed/v1/ticker/04KVagFORmtJKVO9" frameborder="0"></iframe>
+      <h2 style="text-align: center; padding-top: 50px;font-size: 40px;">Recent Updates of Weather </h2>
+      <p style="text-align: center;padding-top: 36px">Browse here to get recent updates and news regarding the weather conditions in Australia </p>
+      
+    
+    <div>
+      
+      <!-- <iframe style="width:100%;padding-top:80px;padding-left: 20px;padding-right: 20px;background-color:#eee;" height="700"  src="https://rss.app/embed/v1/carousel/SNlpevfMHnoXsSEV" frameborder="0"></iframe> -->
+      <iframe style="width:100%;padding-top:80px;padding-left: 20px;padding-right: 20px;padding-bottom: 0px;background-color:#eee;" height="700" src="https://rss.app/embed/v1/carousel/btqzI7iwoMcrcXSz" frameborder="0"></iframe>
+    </div>
+  </section>
+
+    <footer>
+      <p>
+        Developed with ❤️ by ITA08
+      </p> 
+      <div class="media-icons">
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+
+
+    
+    
+   
+
+  </body>
+</html>
